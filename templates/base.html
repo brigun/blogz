@@ -2,24 +2,29 @@
 
 <html>
     <head>
-        <title>Blogz</title>
+        <title>blog.base</title>
         <link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/styles.css">
     </head>
     <body>
         <nav>
+
             <ul>
+                <li><h1><a href="/">blog.base</a></h1></li>
+                <li>|</li>
                 <li><a href="/">home</a></li>
                 <li><a href="/blog">all posts</a></li>
                 <li><a href="/blog/newpost">new post</a></li>
             </ul>
         </nav>
+
         {% block content %}
         {% endblock %}
 
         <nav>
             <ul>
                 <li><a href="/login">login</a></li>
+                <li>|</li>
                 <li><a href="/logout">logout</a></li>
             </ul>
         </nav>
