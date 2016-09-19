@@ -71,6 +71,10 @@ nav ul li {
     margin-right: 15px;
 }
 
+nav ul li h1 a {
+    text-decoration: none;
+}
+
 nav #user-account {
     float: right;
 }
